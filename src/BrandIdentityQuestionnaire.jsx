@@ -336,7 +336,8 @@ const BrandIdentityQuestionnaire = () => {
                             </div>
 
                             <div className="col-12 mx-auto text-center mb-5 mt-3">
-                                <h5 className="font-weight-bold">WE HOPE THAT THIS WORK WILL BE OF HELP TO YOU</h5>
+                                <h5 className="font-weight-bold text-uppercase">Thank you for filling out this questionnaire. 
+                                <br /> We will build the best Brand Identity you are aiming for!</h5>
                             </div>
                             
                             <div className='sub-btn pb-5'>
