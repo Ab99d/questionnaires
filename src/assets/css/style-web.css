@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Roboto+Condensed:wght@700&display=swap');
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-web {
+  background: url("../images/bg1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.web-nav .container-fluid {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.web-nav nav {
+  min-height: 85px;
+}
+
+@media (min-width: 1200px) {
+  .web-nav .navbar-nav li a {
+      font-size: 19px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .web-nav .navbar-nav li {
+      margin: 0 !important;
+  }
+}
+
+@media (max-width: 444px) {
+  .web-nav .container-fluid a {
+      width: 75%;
+  }
+}
+
+@media (max-width: 350px) {
+  .web-nav .container-fluid a {
+      width: 60%;
+  }
+}
+
+.web-nav .navbar-brand img {
+  max-width: 150px !important;
+} 
+
+.web-en-form input[type=number]::-webkit-inner-spin-button,
+.web-en-form input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.web-questionnaire-ar input[type=number]::-webkit-inner-spin-button,
+.web-questionnaire-ar input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+form.web .container {
+  width: min(600px, 80%);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form.web .container img {
+  width: 150px;
+  margin-top: 2rem;
+}
+form.web .container .form-title {
+  width: 100%;
+  padding: 2.5rem;
+  margin: 2rem 0;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #dadce0;
+  box-shadow: 0px 0px 8px 1px #dadce0;
+}
+form.web .container .form-title h2 {
+  font-family: Cabin;
+  margin-bottom: 0.8rem;
+  color: #fcb813;
+  font-size: 25px;
+}
+form.web .container .form-title p {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  color: #8a817c;
+  line-height: 25px;
+}
+form.web .container div:not(:first-of-type) {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid #dadce0;
+  box-shadow: 0px 0px 8px 1px #dadce0;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+form.web .container div:not(:first-of-type) label {
+  font-size: 14px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #8a817c;
+}
+form.web .container div:not(:first-of-type) input {
+  margin-top: 0.5rem;
+  width: 60%;
+  border: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  outline: 0;
+  font-size: 1rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+form.web .container div:not(:first-of-type) input:focus {
+  border-bottom: 2px solid #007ee1;
+}
+@media (max-width: 800px) {
+  form.web .container div:not(:first-of-type) input input {
+    width: 100% !important;
+  }
+}
+form.web .container .your-business input, form .container .your-offer input {
+  width: 100% !important;
+}
+form.web .container .your-opinion input, form .container .additional-information input {
+  width: 100% !important;
+}
+form.web .container .choose-radio input, form .container .choose-check-box input {
+  width: auto !important;
+}
+form.web .container .choose-check-box label:last-of-type {
+  margin-right: 1rem;
+}
+form.web .container .choose-check-box input:last-of-type {
+  width: 80% !important;
+}
+form.web .container .thank-you h4 {
+  font-family: Cabin;
+  color: #8a817c;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+}
+form.web .container main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 5rem 0;
+}
+form.web .container main a {
+  color: white;
+  text-decoration: none;
+}
+form.web .container main a input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007ee1;
+  color: white;
+  outline: none;
+  border-radius: 30px;
+  font-weight: 700;
+}
+form.web .container main a input:hover {
+  background-color: #fcb813;
+}/*# sourceMappingURL=style.css.map */
+
+/* start style arabic page */
+
+form.web-questionnaire-ar .container .form-title p {
+  font-family: Almarai !important;
+}
+
+.web-questionnaire-ar .container .form-title h2 {
+  font-family: Almarai !important;
+}
+
+.web-questionnaire-ar .container .thank-you h4 {
+  font-family: Almarai !important;
+}
+
+.web-questionnaire-ar .container div:not(:first-of-type) label {
+  font-family: Almarai !important;
+}
+
+.web-questionnaire-ar * {
+  direction: rtl;
+  text-align: right;
+}
+
+.web-questionnaire-ar input[type=submit] {
+  font-family: Almarai !important;
+}
+
+.web-footer .brand-footer {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.web-footer .brand-footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.web-footer .brand-footer .container p {
+  font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.web-footer .brand-footer .container .social-icon i {
+  font-size: 35px;
+  margin-left: 1rem;
+}
+
+@media (max-width: 993px) {
+  .web-footer .brand-footer .container {
+      flex-direction: column;
+      height: 400px;
+  }
+  .web-footer .brand-footer .container div {
+      margin: 1rem;
+  }
+}

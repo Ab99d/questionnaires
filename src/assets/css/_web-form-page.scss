@@ -1,0 +1,127 @@
+form {
+    .container {
+        width: min(600px, 80%);
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 150px;
+            margin-top: 2rem;
+        }
+        .form-title {
+            padding: 2.5rem;
+            margin: 2rem 0;
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid #dadce0;
+            box-shadow: 0px 0px 8px 1px #dadce0;
+            h2 {
+                font-family: Cabin;
+                margin-bottom: .8rem;
+                color: #fcb813;
+            }
+            p {
+                font-family: Roboto,Arial,sans-serif;
+                font-size: 15px;
+                color: #8a817c;
+                line-height: 25px;
+            }
+        }
+        & div:not(:first-of-type) {
+            padding: 1rem;
+            background-color: white;
+            border: 1px solid #dadce0;
+            box-shadow: 0px 0px 8px 1px #dadce0;
+            width: 100%;
+            border-radius: 5px;
+            padding: 1rem 2rem;
+            margin-bottom: 1rem;
+            label {
+                font-size: 14px;
+                font-family: Roboto,Arial,sans-serif;
+                color: #8a817c;
+            }
+            input {
+                margin-top: .5rem;
+                width: 60%;
+                border: 0;
+                border-bottom: 2px solid rgba(0,0,0,0.12);
+                outline: 0;
+                font-size: 1rem;
+                color: black;
+                padding: 7px 0;
+                background: transparent;
+                transition: border-color 0.2s;
+                &:focus {
+                    border-bottom: 2px solid #007ee1;
+                }
+                @media(max-width: 800px) {
+                    input {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+        .your-business, .your-offer {
+            input {
+                width: 100% !important;
+            }
+        }
+        .your-opinion, .additional-information {
+            input {
+                width: 100% !important;
+            }
+        }
+        .choose-radio, .choose-check-box {
+            input {
+                width: auto !important;
+            }
+        }
+        .choose-check-box {
+            label {
+                &:last-of-type {
+                    margin-right: 1rem;
+                }
+            }
+            input {
+                &:last-of-type {
+                    width: 80% !important;
+                }
+            }
+        }
+        .thank-you {
+            h4 {
+                font-family: Cabin;
+                color: #8a817c;
+                text-align: center;
+                line-height: 25px;
+            }
+        }
+        main {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0 5rem 0;
+            a {
+                color: white;
+                text-decoration: none;
+                input {
+                    padding: 10px 15px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    background-color: #007ee1;
+                    color: white;
+                    outline: none;
+                    border-radius: 30px;
+                    font-weight: 700;
+                    &:hover {
+                        background-color: #fcb813;
+                    }
+                }
+            }
+        }
+    }
+}
