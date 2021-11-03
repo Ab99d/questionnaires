@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 
 const BrandIdentityQuestionnaire = () => {
     return (
-        <div className="main-parent"> {/* this main div is holding the full site */}
+        <div className="main-parent en"> {/* this main div is holding the full site */}
             {/* navbar */}
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container">

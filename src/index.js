@@ -5,6 +5,7 @@ import App from './App';
 import './assets/css/bootstrap.min.css'
 import './assets/css/style.css'
 import './assets/css/style-web.css'
+import './assets/css/style-motion.css'
 // import './assets/css/style.css.map'
 // import './assets/css/style.scss'
 // import './assets/css/styleAR.css'
