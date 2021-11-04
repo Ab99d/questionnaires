@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Almarai&family=Roboto+Condensed:wght@700&display=swap');
 
-.main-parent .bg {
-    background: url(../images/bg.jpg);
+.main-parent-social-media .bg {
+    background: url(../images/social-bg-01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.main-parent nav {
+.main-parent-social-media  nav {
     min-height: 85px;
 }
 
-.lang-btn-strok {
+.main-parent-social-media .lang-btn-strok {
     width: 100px;
     position: absolute;
     height: 103px;
@@ -22,61 +22,70 @@
     border-top: none;
 }
 
+@media (max-width: 768px) {
+    .icon-none {
+        display: none;
+    }
+    .width-100 {
+        min-width: 100%;
+    }
+}
+
 @media (min-width: 1200px) {
-    .main-parent .navbar-nav li a {
+    .main-parent-social-media .navbar-nav li a {
         font-size: 19px;
     }
 }
 
 @media (max-width: 1200px) {
-    .main-parent .navbar-nav li {
+    .main-parent-social-media .navbar-nav li {
         margin: 0 !important;
     }
 }
 
 @media (max-width: 444px) {
-    .main-parent .container-fluid a {
+    .main-parent-social-media .container-fluid a {
         width: 75%;
     }
 }
 
 @media (max-width: 350px) {
-    .main-parent .container-fluid a {
+    .main-parent-social-media .container-fluid a {
         width: 60%;
     }
 }
 
-.main-parent .hero {
-    margin-bottom: 15rem;
+.main-parent-social-media .hero {
+    margin-bottom: 4rem;
 }
 
-.main-parent .container > div img {
+.main-parent-social-media .container > div img {
     max-width: 900px;
 }
 
-.main-parent div .navbar-brand img {
+.main-parent-social-media div .navbar-brand img {
     max-width: 300px;
 }
 
-.main-parent .form .container img {
+.main-parent-social-media .form .container img {
     max-width: 1792px;
 }
 
-.main-parent .form > div:first-of-type {
+.main-parent-social-media .form > div:first-of-type {
     margin-bottom: 7rem;
 }
 
-.main-parent .design-icon {
+.main-parent-social-media .design-icon {
     right: 42px;
     bottom: 56px;
     max-width: 453px !important;
 }
 
-.main-parent .design-icon-container {
+.main-parent-social-media .design-icon-container {
     width: 500px;
 }
 
-.main-parent .brand-name-tagline {
+.main-parent-social-media .brand-name-tagline {
     font-weight: 900;
     color: #f8931f;
     font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
@@ -94,7 +103,7 @@
     align-items: flex-start;
 } */
 
-.main-parent .tag-line textarea {
+.main-parent-social-media .tag-line textarea {
     background-attachment: local;
     background-image: repeating-linear-gradient(to right , transparent 0 5px, white 0 8px),
     repeating-linear-gradient(to bottom, transparent 0 calc(1.5em - 2px), rgb(143, 143, 143) 0 1.5em);
@@ -107,26 +116,26 @@
     width: 280px;
 }
 
-.main-parent .tag-line textarea:focus{
+.main-parent-social-media .tag-line textarea:focus{
     outline: none;
 } 
 
-.main-parent .brand-name-tagline label {
+.main-parent-social-media .brand-name-tagline label {
     font-size: 19px;
     margin-right: 1rem;
     margin-bottom: 0rem;
 }
 
-.main-parent .brand-name-tagline > label {
+.main-parent-social-media .brand-name-tagline > label {
     width: 100%;
 }
 
-.main-parent .brand-name-tagline label span{
+.main-parent-social-media .brand-name-tagline label span{
     color: #64605f;
 }
 
-.main-parent .brand-name-tagline input {
-    margin-bottom: 3rem;
+.main-parent-social-media .brand-name-tagline input {
+    margin-bottom: 2rem;
     background-color: transparent;
     border: none;
     border-bottom: 2px dashed rgb(143, 143, 143);
@@ -134,12 +143,12 @@
     width: 80%;
 }
 
-.main-parent .brand-name-tagline input:focus{
+.main-parent-social-media  .brand-name-tagline input:focus{
     outline: none;
     border-bottom: 2px dashed rgb(143, 143, 143);
 }
 
-.main-parent .questions .container div {
+.main-parent-social-media .questions .container div {
     display: flex;
     font-weight: 900;
     flex-direction: column;
@@ -155,12 +164,11 @@
     font-size: 18px;
 }
 
-.en .questions .container label {
-    
+.social-en .questions .container label {
     font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.main-parent .questions .container textarea {
+.main-parent-social-media .questions .container textarea {
     background-attachment: local;
     background-image: repeating-linear-gradient(to right , transparent 0 5px, white 0 8px),
     repeating-linear-gradient(to bottom, transparent 0 calc(1.5em - 2px), rgb(143, 143, 143) 0 1.5em);
@@ -173,11 +181,15 @@
     width: 70%;
 }
 
-.main-parent .questions .container textarea:focus {
+.social-ar .questions .container textarea {
+    font-family: Almarai, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-parent-social-media .questions .container textarea:focus {
     outline: none;
 }
 
-.main-parent .questions .container input:not([type=file]) {
+.main-parent-social-media .questions .container input:not([type=file], [type=submit]) {
     margin-bottom: 2rem;
     background-color: transparent;
     border: none;
@@ -186,34 +198,34 @@
     width: 100%;
 }
 
-.main-parent .questions .container input:focus {
+.main-parent-social-media .questions .container input:focus:not([type=file], [type=submit]) {
     outline: none;
     border-bottom: 2px dashed rgb(143, 143, 143);
 }
 
-.main-parent .logo-type {
+.main-parent-social-media .logo-type {
     font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     color: #f8931f;
 }
 
-.main-parent .fedexLogo {
+.main-parent-social-media .fedexLogo {
     width: 150px;
 }
 
-.main-parent .fedex div .img {
+.main-parent-social-media .fedex div .img {
     padding-top: 3rem;
 }
 
-.main-parent .pepsiLogo, .burgerLogo {
+.main-parent-social-media .pepsiLogo, .burgerLogo {
     width: 100px;
 }
 
-.main-parent .card {
+.main-parent-social-media .card {
     background-color: transparent !important;
 }
 
-.main-parent .card-body input {
+.main-parent-social-media .card-body input {
     width: 50px;
     height: 50px;
     position: relative;
@@ -222,7 +234,7 @@
     z-index: 10;
 }
 
-.main-parent .card-body input:before {
+.main-parent-social-media .card-body input:before {
     content: "";
     width: 100%;
     height: 100%;
@@ -234,7 +246,7 @@
     background-color: #f8931f;
 }
 
-.main-parent .card-body input:checked:after {
+.main-parent-social-media .card-body input:checked:after {
     content: "";
     width: 25px;
     height: 25px;
@@ -247,34 +259,34 @@
     border-radius: 50%;
 }
 
-.main-parent .sub-btn {
+.main-parent-social-media .sub-btn {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     margin: auto;
 }
 
-.main-parent .sub-btn input:hover {
+.main-parent-social-media .sub-btn input:hover {
     background-color: #5dc09b;
 }
 
-.main-parent .context-bg {
+.main-parent-social-media .context-bg {
     width: 434px;
 }
 
-.main-parent .o-textarea {
+.main-parent-social-media .o-textarea {
     position: relative;
 }
 
-.main-parent ol {
+.main-parent-social-media ol {
     list-style: none;
     counter-reset: cont;
 }
-.main-parent ol li {
+.main-parent-social-media ol li {
     counter-increment: cont;
     position: relative;
 }
-.main-parent ol li::before {
+.main-parent-social-media ol li::before {
     content: counter(cont) ") ";
     color: #f8931f;
     font-weight: bold;
@@ -283,138 +295,138 @@
     left: -30px;
 }
 
-.main-parent .check-information {
+.main-parent-social-media .check-information {
     display: flex;
     flex-direction: row;
 }
 
-.main-parent .form-check-inline {
+.main-parent-social-media .form-check-inline {
     display: inline-block !important;
 }
 
-.main-parent .form-check-inline input {
+.main-parent-social-media .form-check-inline input {
     position: relative;
 }
 
 
 @media (max-width: 992px) {
-    .main-parent .tag-line {
+    .main-parent-social-media .tag-line {
         display: inline-block;
     }
-    .main-parent .brand-name-tagline {
+    .main-parent-social-media .brand-name-tagline {
         top: -5px;
     }
-    .main-parent .brand-name-tagline input {
+    .main-parent-social-media .brand-name-tagline input {
         width: 100%;
     }
-    .main-parent .tag-line textarea {
+    .main-parent-social-media .tag-line textarea {
         width: 260px;
     }
-    .main-parent .brand-name-tagline {
+    .main-parent-social-media .brand-name-tagline {
         max-width: 262px;
     }
-    .main-parent .brand-name-tagline label {
+    .main-parent-social-media .brand-name-tagline label {
         margin-bottom: 1rem;
     }
-    .main-parent .design-icon {
+    .main-parent-social-media .design-icon {
         bottom: 115px;
     }
 }
 
 @media (max-width: 767px) {
-    .main-parent .hero {
-        margin-bottom: 25rem;
+    .main-parent-social-media .hero {
+        margin-bottom: 17rem;
     }
-    .main-parent .design-icon {
+    .main-parent-social-media .design-icon {
         width: 250px !important;
         bottom: 517px;
         right: 130px;
     }
-    .main-parent .brand-name-tagline {
+    .main-parent-social-media .brand-name-tagline {
         max-width: 100% !important;
         left: 60px;
     }
 }
 
 @media (max-width: 580px) {
-    .main-parent {
+    .main-parent-social-media {
         background: none;
     }
 
-    .main-parent .hero {
+    .main-parent-social-media .hero {
         margin-bottom: 4rem;
     }
 
-    .main-parent .form > div:first-of-type {
+    .main-parent-social-media .form > div:first-of-type {
         margin-bottom: 2rem;
     }
 
-    .main-parent .brand-name-tagline input, .questions .container div input {
+    .main-parent-social-media .brand-name-tagline input, .questions .container div input {
         border-bottom: 2px solid rgb(143, 143, 143);
     }
-    .main-parent .brand-name-tagline input:focus, .questions .container div input:focus {
+    .main-parent-social-media .brand-name-tagline input:focus, .questions .container div input:focus {
         border-bottom: 2px solid rgb(143, 143, 143);
     }
 
-    .main-parent .design-icon-container img {
+    .main-parent-social-media .design-icon-container img {
         display: none;
     }
 
-    .main-parent .context-bg > img {
+    .main-parent-social-media .context-bg > img {
         display: none;
     }
 
-    .main-parent .brand-name-tagline {
+    .main-parent-social-media .brand-name-tagline {
         position: static !important;
         width: 90%;
         margin: auto;
     }
 
-    .main-parent .form .container > div:not(.sub-btn) {
+    .main-parent-social-media .form .container > div:not(.sub-btn) {
         display: block !important;
     }
 
-    .main-parent .form .container > div > div:first-child {
+    .main-parent-social-media .form .container > div > div:first-child {
         display: block !important;
     }
 
-    .main-parent .tag-line {
+    .main-parent-social-media .tag-line {
         display: flex !important;
         flex-direction: column;
         width: 100%;
     }
 
-    .main-parent .tag-line label {
+    .main-parent-social-media .tag-line label {
         font-size: 16px;
     }
 
-    .main-parent .tag-line textarea {
+    .main-parent-social-media .tag-line textarea {
         width: 100%;
         font-size: 17px;
         line-height: 4ch;
         background-image: linear-gradient(transparent, transparent calc(4ch - 2px), rgb(143, 143, 143) 0px);
         background-size: 100% 4ch;
     }
-    .main-parent .brand-name-tagline input, .questions .container div input {
+    .main-parent-social-media .brand-name-tagline input, .questions .container div input {
         font-size: 17px;
     }
 
-    .main-parent .brand-name-tagline label {
+    .main-parent-social-media .brand-name-tagline label {
         font-size: 15px;
     }
 
     /* questions */
-    .main-parent .questions .container div {
+    .main-parent-social-media .questions .container div {
         margin: auto;
         margin: 2rem auto 0;
     }
 
-    .main-parent .questions .container div label {
+    .main-parent-social-media .questions .container div label {
         font-size: 15px;
         text-align: start !important;
     }
 
-    .main-parent .questions .container textarea {
+    .main-parent-social-media .questions .container textarea {
         width: 100%;
         font-size: 17px;
         line-height: 4ch;
@@ -422,36 +434,36 @@
         background-size: 100% 4ch;
     }
 
-    .main-parent .questions .container div {
+    .main-parent-social-media .questions .container div {
         display: flex !important;
         flex-direction: column;
     }
 
-    .main-parent .questions .container div input {
+    .main-parent-social-media .questions .container div input {
         width: 100%;
     }
 
-    .main-parent .card {
+    .main-parent-social-media .card {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .main-parent .card-container {
+    .main-parent-social-media .card-container {
         margin: 0 0 2rem 0 !important;
     }
 
-    .main-parent .sub-btn {
+    .main-parent-social-media .sub-btn {
         display: flex !important;
         justify-content: center !important;
     }
 
-    .main-parent .context-bg {
+    .main-parent-social-media .context-bg {
         width: auto;
     }
 
-    .main-parent .checkboxes-container {
+    .main-parent-social-media .checkboxes-container {
         width: 100% !important;
     }
 }
@@ -487,45 +499,45 @@
 
 /* style the arabic page */
 
-.main-parent-AR form * {
+.social-ar form * {
     font-family: Almarai, Tahoma, Geneva, Verdana, sans-serif;
 }
-.main-parent-AR .flip-img {
+.social-ar .flip-img {
     direction: rtl;
     text-align: right;
 }
-.main-parent-AR .flip-img img {
+.social-ar .flip-img img {
     transform: scaleX(-1);
 }
-.main-parent-AR .flip-img div:first-child img {
+.social-ar .flip-img div:first-child img {
     transform: scaleX(1);
 }
-.main-parent-AR label {
+.social-ar label {
     margin-right: 0;
 }
-.main-parent .main-parent-AR .questions .container * {
+.social-ar .questions .container * {
     font-family: Almarai, Tahoma, Geneva, Verdana, sans-serif;
 }
-.main-parent-AR .brand-name-tagline{
+.social-ar .brand-name-tagline{
     left: -37px;
     top: 20px;
 }
 
-.main-parent-AR .design-icon {
+.social-ar .design-icon {
     right: -60px;
 }
-.main-parent-AR ol {
+.social-ar ol {
     list-style: none;
     counter-reset: cont;
 }
-.main-parent-AR ol li {
+.social-ar ol li {
     counter-increment: cont;
     position: relative;
 }
-.main-parent-AR ol li::before {
+.social-ar ol li::before {
     content: '';
 }
-.main-parent-AR ol li::after {
+.social-ar ol li::after {
     content: " (" counter(cont) !important;
     color: #f8931f;
     font-weight: bold;
@@ -535,12 +547,12 @@
     margin-left: 0.5rem;
 }
 
-.main-parent .vision-ar, .mission-ar {
+.main-parent-social-media .vision-ar, .mission-ar {
     position: relative;
     list-style: none;
     width: 100%;
 }
-.main-parent .vision-ar::after {
+.main-parent-social-media .vision-ar::after {
     content: ":الرؤية";
     width: 10px;
     height: 10px;
@@ -552,7 +564,7 @@
     bottom: 50px;
 }
 
-.main-parent .mission-ar::after {
+.main-parent-social-media .mission-ar::after {
     content: ":الرسالة";
     width: 10px;
     height: 10px;
@@ -564,58 +576,61 @@
     bottom: 50px;
 }
 
-.main-parent .brand-footer {
+.main-parent-social-media .social-footer {
     min-height: 300px;
     display: flex;
     align-items: center;
     background-color: black;
 }
 
-.main-parent .brand-footer .container {
+.main-parent-social-media .social-footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.main-parent .brand-footer .container p {
+.main-parent-social-media .social-footer .container p {
     font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.main-parent .brand-footer .container .social-icon i {
+.main-parent-social-media .social-footer .container .social-icon i {
     font-size: 35px;
     margin-left: 1rem;
 }
 
 @media (max-width: 580px) {
-    .main-parent-AR .questions .container div label {
+    .social-ar .questions .container div label{
         text-align: end !important;
         width: 100%;
     }
-    .main-parent-AR .custom-file-label::after {
+    .social-ar .questions .container div h4 {
+        text-align: center !important;
+    }
+    .social-ar .custom-file-label::after {
         left: 0;
         right: auto;
     }
 }
 
 @media (max-width: 993px) {
-    .main-parent-AR .brand-name-tagline {
+    .social-ar .brand-name-tagline {
         left: 101px;
         top: -20px;
     }
-    .main-parent .brand-footer .container {
+    .main-parent-social-media .social-footer .container {
         flex-direction: column;
         height: 400px;
     }
-    .main-parent .brand-footer .container div {
+    .main-parent-social-media .social-footer .container div {
         margin: 1rem;
     }
 }
 
 @media (max-width: 767px) {
-    .main-parent-AR .design-icon {
+    .social-ar .design-icon {
         right: -275px !important;
     }
-    .main-parent-AR .brand-name-tagline {
+    .social-ar .brand-name-tagline {
         left: -56px;
     }
     /* .brand-name-tagline {

@@ -23,25 +23,24 @@ const BrandIdentityQuestionnaireAR = () => {
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item mx-2">
-                                <a className="nav-link" aria-current="page" href>Home</a>
+                                <a className="nav-link" aria-current="page" href={"https://osgpro.com/"}>Home</a>
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link" href>About Us</a>
+                                <a className="nav-link" href={"https://osgpro.com/about/"}>About Us</a>
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link" href>Our Services</a>
+                                <a className="nav-link" href={"https://osgpro.com/services/"}>Our Services</a>
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link" href>Pricing Plans</a>
+                                <a className="nav-link" href={"https://osgpro.com/pricing/"}>Pricing Plans</a>
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link" href>FAQs</a>
+                                <a className="nav-link" href={"https://osgpro.com/faq/"}>FAQs</a>
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link" href>Contact</a>
+                                <a className="nav-link" href={"https://osgpro.com/contact/"}>Contact</a>
                             </li>
                         </ul>
-                        <Link className="btn btn-primary" to="/">English</Link>
                         </div>
                     </div>
                 </div>
@@ -50,6 +49,10 @@ const BrandIdentityQuestionnaireAR = () => {
             <div className="bg">
                 <div className="hero">
                     <div className="container">
+                        <div className="d-flex justify-content-center pt-5 position-relative">
+                            <span className="lang-btn-strok"></span>
+                            <Link className="btn btn-primary position-relative" to="/">English</Link>
+                        </div>
                         <div className="d-flex flex-column">
                             <img src={heroAR} alt="" className='mt-5 col-4 align-self-center'/>
                         </div>

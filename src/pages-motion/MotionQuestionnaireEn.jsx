@@ -22,27 +22,24 @@ const MotionQuestionnaireEn = () => {
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item mx-2">
-                                <a className="nav-link text-center w-100" aria-current="page" href>Home</a>
+                                <a className="nav-link text-center w-100" aria-current="page" href={"https://osgpro.com/"}>Home</a>
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link text-center w-100" href>About Us</a>
+                                <a className="nav-link text-center w-100" href={"https://osgpro.com/about/"}>About Us</a>
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link text-center w-100" href>Our Services</a>
+                                <a className="nav-link text-center w-100" href={"https://osgpro.com/services/"}>Our Services</a>
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link text-center w-100" href>Pricing Plans</a>
+                                <a className="nav-link text-center w-100" href={"https://osgpro.com/pricing/"}>Pricing Plans</a>
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link text-center w-100" href>FAQs</a>
+                                <a className="nav-link text-center w-100" href={"https://osgpro.com/faq/"}>FAQs</a>
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link text-center w-100" href>Contact</a>
+                                <a className="nav-link text-center w-100" href={"https://osgpro.com/contact/"}>Contact</a>
                             </li>
                         </ul>
-                            <div className="text-center">
-                                <Link className="btn btn-primary" to="/ar">عربي</Link>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -51,6 +48,10 @@ const MotionQuestionnaireEn = () => {
             <div className="bg-motion">
                 {/* hero section */}
             <div className="contaienr">
+                <div className="text-center d-flex justify-content-center pt-5 position-relative">
+                    <span className="lang-btn-strok"></span>
+                    <Link className="btn btn-primary text-center btn btn-primary position-relative" to="/ar">عربي</Link>
+                </div>
                 <div className="hero d-flex justify-content-center p-3 flex-xl-row flex-lg-row flex-md-row flex-sm-column">
                     <div className="hero-img">
                         <img className="mt-5 col-12 align-self-center" src={heroText} alt="" />

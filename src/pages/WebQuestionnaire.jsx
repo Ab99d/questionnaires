@@ -35,7 +35,6 @@ const WebQuestionnaire = () => {
                                 <a className="nav-link" href>Contact</a>
                             </li>
                         </ul>
-                        <Link className="btn btn-primary" to="/ar">عربي</Link>
                         </div>
                     </div>
                 </div>
@@ -45,6 +44,10 @@ const WebQuestionnaire = () => {
         <div className="bg-web">
             <form action="" className='web-en-form web'>
             <div className="container">
+                <div className="text-center d-flex justify-content-center pt-5 position-relative">
+                    <span className="lang-btn-strok"></span>
+                    <Link className="btn btn-primary text-center btn btn-primary position-relative" to="/ar">عربي</Link>
+                </div>
                 <div className="form-title">
                     <h2>Web On-boarding Questionnaire</h2>
                     <p>Kindly provide required information about your work in order to conceive the specifications of your business</p>
