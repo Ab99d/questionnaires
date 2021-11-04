@@ -4,7 +4,7 @@
 .main-parent-social-media .bg {
     background: url(../images/social-bg-01.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
     background-size: cover;
 }
 

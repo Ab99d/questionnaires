@@ -303,25 +303,25 @@ const SocialMediaQuestionnaireAR = () => {
                                 <div className="container d-flex flex-row-reverse flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="vnvb"/>
+                                            <input type="checkbox" className="custom-control-input" name="vnvb"/>
                                             <label className="custom-control-label text-primary" htmlFor="">في نطاق 10 أميال</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="fgfd"/>
+                                            <input type="checkbox" className="custom-control-input" name="fgfd"/>
                                             <label className="custom-control-label text-primary" htmlFor="">في نطاق 25 ميلا</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id=" " name="dgsfg"/>
+                                            <input type="checkbox" className="custom-control-input" name="dgsfg"/>
                                             <label className="custom-control-label text-primary" htmlFor=" ">على مستوى المدينة</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="fhsfdh"/>
+                                            <input type="checkbox" className="custom-control-input" name="fhsfdh"/>
                                             <label className="custom-control-label text-primary" htmlFor="">المحافظة / الولاية على نطاق واسع</label>
                                         </div>
                                     </div>
