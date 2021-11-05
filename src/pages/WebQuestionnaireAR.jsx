@@ -43,11 +43,10 @@ const WebQuestionnaireAR = () => {
         {/* footer */}
         <div className="bg-web">
             <form action="" className="web-questionnaire-ar web">
-            <div className="container">
-                <div className="text-center d-flex justify-content-center pt-5 position-relative">
-                    <span className="lang-btn-strok"></span>
-                    <Link className="btn btn-primary text-center btn btn-primary position-relative" to="/">English</Link>
-                </div>
+            <div className="container position-relative">
+                        <div className="d-flex justify-content-end col-12 pr-4 mx-right lang-btn-container">
+                            <Link className="btn btn-primary position-relative" to="/">English</Link>
+                        </div>
                 <div className="form-title">
                     <h2>استبيان على الويب</h2>
                     <p className="">يرجى تقديم المعلومات المطلوبة حول عملك من أجل تصور مواصفات عملك</p>

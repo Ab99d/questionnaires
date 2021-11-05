@@ -48,11 +48,10 @@ const BrandIdentityQuestionnaire = () => {
             {/* hero section */}
             <div className="bg">
                 <div className="hero">
-                    <div className="container">
-                    <div className="d-flex justify-content-center pt-5 position-relative">
-                        <span className="lang-btn-strok"></span>
-                        <Link className="btn btn-primary position-relative" to="/ar">عربي</Link>
-                    </div>
+                    <div className="container position-relative">
+                        <div className="d-flex justify-content-end col-12 pr-4 mx-right lang-btn-container">
+                            <Link className="btn btn-primary position-relative" to="/ar">عربي</Link>
+                        </div>
                         <div className="d-flex flex-column">
                             <img src={hero} alt="" className='mt-5 col-4 align-self-center'/>
                         </div>

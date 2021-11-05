@@ -47,11 +47,10 @@ const MotionQuestionnaireAr = () => {
 
             <div className="bg-motion">
                 {/* hero section */}
-            <div className="contaienr">
-                <div className="text-l text-center d-flex justify-content-center pt-5 position-relative">
-                    <span className="lang-btn-strok"></span>
-                    <Link className="btn btn-primary text-center btn btn-primary position-relative" to="/">English</Link>
-                </div>
+                <div className="container position-relative">
+                        <div className="d-flex justify-content-end col-12 pr-4 mx-right lang-btn-container">
+                            <Link className="btn btn-primary position-relative" to="/">English</Link>
+                        </div>
                 <div className="hero d-flex justify-content-center p-3 flex-xl-row flex-lg-row flex-md-row flex-sm-column">
                     <div className="hero-img">
                         <img className="mt-5 col-12 align-self-center" src={heroText} alt="" />

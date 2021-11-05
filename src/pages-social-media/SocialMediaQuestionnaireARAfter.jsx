@@ -46,9 +46,8 @@ const SocialMediaQuestionnaireAR = () => {
             {/* hero section */}
             <div className="bg">
                 <div className="hero">
-                    <div className="container">
-                        <div className="d-flex justify-content-center pt-5 position-relative">
-                            <span className="lang-btn-strok"></span>
+                    <div className="container position-relative">
+                        <div className="d-flex justify-content-end col-12 pr-4 mx-right lang-btn-container">
                             <Link className="btn btn-primary position-relative" to="/">English</Link>
                         </div>
                         <div className="d-flex justify-content-around hero-social">

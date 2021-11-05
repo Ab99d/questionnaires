@@ -46,9 +46,8 @@ const SocialMediaQuestionnaire = () => {
             {/* hero section */}
             <div className="bg">
                 <div className="hero">
-                    <div className="container">
-                        <div className="d-flex justify-content-center pt-5 position-relative">
-                            <span className="lang-btn-strok"></span>
+                    <div className="container position-relative">
+                        <div className="d-flex justify-content-end col-12 pr-4 mx-right lang-btn-container">
                             <Link className="btn btn-primary position-relative" to="/ar">عربي</Link>
                         </div>
                         <div className="d-flex justify-content-around hero-social">
@@ -272,26 +271,26 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">18-35</label>
+                                            <input type="checkbox" className="custom-control-input" id="20-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="20-En-pre">18-35</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">35-50</label>
+                                            <input type="checkbox" className="custom-control-input" id="21-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="21-En-pre">35-50</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">50-65</label>
+                                            <input type="checkbox" className="custom-control-input" id="22-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="22-En-pre">50-65</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">OVER 65</label>
+                                            <input type="checkbox" className="custom-control-input" id="23-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="23-En-pre">OVER 65</label>
                                         </div>
                                     </div>
                                 </div>
@@ -303,26 +302,26 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">WITHIN 10 MILES RADIUS</label>
+                                            <input type="checkbox" className="custom-control-input" id="24-En-pre" />
+                                            <label className="custom-control-label text-primary" htmlFor="24-En-pre">WITHIN 10 MILES RADIUS</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">WITHIN 25 MILES RADIUS</label>
+                                            <input type="checkbox" className="custom-control-input" id="25-En-pre" />
+                                            <label className="custom-control-label text-primary" htmlFor="25-En-pre">WITHIN 25 MILES RADIUS</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor=" ">CITY WIDE</label>
+                                            <input type="checkbox" className="custom-control-input" id="26-En-pre" />
+                                            <label className="custom-control-label text-primary" htmlFor="26-En-pre">CITY WIDE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">STATE WIDE</label>
+                                            <input type="checkbox" className="custom-control-input" id="27-En-pre" />
+                                            <label className="custom-control-label text-primary" htmlFor="27-En-pre">STATE WIDE</label>
                                         </div>
                                     </div>
                                 </div>
@@ -340,20 +339,20 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">LESS THAN 10%</label>
+                                            <input type="checkbox" className="custom-control-input" id="30-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="30-En-pre">LESS THAN 10%</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">BETWEEN 10-30%</label>
+                                            <input type="checkbox" className="custom-control-input" id="31-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="31-En-pre">BETWEEN 10-30%</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">OVER 30%</label>
+                                            <input type="checkbox" className="custom-control-input" id="32-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="32-En-pre">OVER 30%</label>
                                         </div>
                                     </div>
                                 </div>
@@ -365,20 +364,20 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">LESS THAN 10%</label>
+                                            <input type="checkbox" className="custom-control-input" id="33-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="33-En-pre">LESS THAN 10%</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">BETWEEN 10-30%</label>
+                                            <input type="checkbox" className="custom-control-input" id="35-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="35-En-pre">BETWEEN 10-30%</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">OVER 30%</label>
+                                            <input type="checkbox" className="custom-control-input" id="36-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="36-En-pre">OVER 30%</label>
                                         </div>
                                     </div>
                                 </div>
@@ -390,20 +389,20 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">LESS THAN 10%</label>
+                                            <input type="checkbox" className="custom-control-input" id="40-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="40-En-pre">LESS THAN 10%</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">BETWEEN 10-30%</label>
+                                            <input type="checkbox" className="custom-control-input" id="41-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="41-En-pre">BETWEEN 10-30%</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">OVER 30%</label>
+                                            <input type="checkbox" className="custom-control-input" id="42-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="42-En-pre">OVER 30%</label>
                                         </div>
                                     </div>
                                 </div>
@@ -415,20 +414,20 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">LESS THAN 10%</label>
+                                            <input type="checkbox" className="custom-control-input" id="50-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="50-En-pre">LESS THAN 10%</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">BETWEEN 10-30%</label>
+                                            <input type="checkbox" className="custom-control-input" id="51-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="51-En-pre">BETWEEN 10-30%</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">OVER 30%</label>
+                                            <input type="checkbox" className="custom-control-input" id="52-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="52-En-pre">OVER 30%</label>
                                         </div>
                                     </div>
                                 </div>
@@ -453,20 +452,20 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="FACEBOOK" name="FACEBOOK" />
-                                            <label className="custom-control-label text-primary" htmlFor="FACEBOOK">FACEBOOK</label>
+                                            <input type="checkbox" className="custom-control-input" id="60-En-pre" name="FACEBOOK" />
+                                            <label className="custom-control-label text-primary" htmlFor="60-En-pre">FACEBOOK</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="INSTAGRAM" name="INSTAGRAM" />
-                                            <label className="custom-control-label text-primary" htmlFor="INSTAGRAM">INSTAGRAM</label>
+                                            <input type="checkbox" className="custom-control-input" id="61-En-pre" name="INSTAGRAM" />
+                                            <label className="custom-control-label text-primary" htmlFor="61-En-pre">INSTAGRAM</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="TWITTER" name="TWITTER" />
-                                            <label className="custom-control-label text-primary" htmlFor="TWITTER">TWITTER</label>
+                                            <input type="checkbox" className="custom-control-input" id="62-En-pre" name="TWITTER" />
+                                            <label className="custom-control-label text-primary" htmlFor="62-En-pre">TWITTER</label>
                                         </div>
                                     </div>
                                 </div>
@@ -484,14 +483,14 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="INTERNAL" name="INTERNAL" />
-                                            <label className="custom-control-label text-primary" htmlFor="INTERNAL">INTERNAL</label>
+                                            <input type="checkbox" className="custom-control-input" id="70-En-pre" name="INTERNAL" />
+                                            <label className="custom-control-label text-primary" htmlFor="70-En-pre">INTERNAL</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="EXTERNAL" name="EXTERNAL" />
-                                            <label className="custom-control-label text-primary" htmlFor="EXTERNAL">EXTERNAL</label>
+                                            <input type="checkbox" className="custom-control-input" id="71-En-pre" name="EXTERNAL" />
+                                            <label className="custom-control-label text-primary" htmlFor="71-En-pre">EXTERNAL</label>
                                         </div>
                                     </div>
                                 </div>
@@ -503,14 +502,14 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">YES</label>
+                                            <input type="checkbox" className="custom-control-input" id="80-En-pre"/>
+                                            <label className="custom-control-label text-primary" htmlFor="80-En-pre">YES</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">NO</label>
+                                            <input type="checkbox" className="custom-control-input" id="81-En-pre"/>
+                                            <label className="custom-control-label text-primary" htmlFor="81-En-pre">NO</label>
                                         </div>
                                     </div>
                                 </div>
@@ -522,20 +521,20 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">NO</label>
+                                            <input type="checkbox" className="custom-control-input" id="90-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="90-En-pre">NO</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">SEARCH ENGINE OPTIMIZATION (SEO)</label>
+                                            <input type="checkbox" className="custom-control-input" id="91-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="91-En-pre">SEARCH ENGINE OPTIMIZATION (SEO)</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">PAY PER CLICK (PPC)</label>
+                                            <input type="checkbox" className="custom-control-input" id="92-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="92-En-pre">PAY PER CLICK (PPC)</label>
                                         </div>
                                     </div>
                                 </div>
@@ -553,14 +552,14 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">YES</label>
+                                            <input type="checkbox" className="custom-control-input" id="100-En-pre"/>
+                                            <label className="custom-control-label text-primary" htmlFor="100-En-pre">YES</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">NO</label>
+                                            <input type="checkbox" className="custom-control-input" id="101-En-pre"/>
+                                            <label className="custom-control-label text-primary" htmlFor="101-En-pre">NO</label>
                                         </div>
                                     </div>
                                 </div>
@@ -572,14 +571,14 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">YES</label>
+                                            <input type="checkbox" className="custom-control-input" id="102-En-pre"/>
+                                            <label className="custom-control-label text-primary" htmlFor="102-En-pre">YES</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" />
-                                            <label className="custom-control-label text-primary">NO</label>
+                                            <input type="checkbox" className="custom-control-input" id="103-En-pre" />
+                                            <label className="custom-control-label text-primary" htmlFor="103-En-pre">NO</label>
                                         </div>
                                     </div>
                                 </div>
@@ -591,38 +590,38 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">BRAND AWARENESS</label>
+                                            <input type="checkbox" className="custom-control-input" id="120-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="120-En-pre">BRAND AWARENESS</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">INTRODUCE NEW PRODUCT OR SERVICE</label>
+                                            <input type="checkbox" className="custom-control-input" id="121-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="121-En-pre">INTRODUCE NEW PRODUCT OR SERVICE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">INCREASE ONLINE TRAFFIC</label>
+                                            <input type="checkbox" className="custom-control-input" id="122-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="122-En-pre">INCREASE ONLINE TRAFFIC</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">CALL TO ACTION</label>
+                                            <input type="checkbox" className="custom-control-input" id="123-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="123-En-pre">CALL TO ACTION</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">TARGET NEW CUSTOMERS</label>
+                                            <input type="checkbox" className="custom-control-input" id="124-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="124-En-pre">TARGET NEW CUSTOMERS</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">INCREASE FOOT TRAFFIC</label>
+                                            <input type="checkbox" className="custom-control-input" id="125-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="125-En-pre">INCREASE FOOT TRAFFIC</label>
                                         </div>
                                     </div>
                                 </div>
@@ -634,26 +633,26 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">GENERATE MORE LEADS</label>
+                                            <input type="checkbox" className="custom-control-input" id="130-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="130-En-pre">GENERATE MORE LEADS</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">INCREASE YOUR SALES</label>
+                                            <input type="checkbox" className="custom-control-input" id="131-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="131-En-pre">INCREASE YOUR SALES</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">IMPROVE YOUR CONVERSION RATE</label>
+                                            <input type="checkbox" className="custom-control-input" id="132-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="132-En-pre">IMPROVE YOUR CONVERSION RATE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" id="" name="" />
-                                            <label className="custom-control-label text-primary" htmlFor="">INCREASE TRAFFIC</label>
+                                            <input type="checkbox" className="custom-control-input" id="135-En-pre" name="" />
+                                            <label className="custom-control-label text-primary" htmlFor="135-En-pre">INCREASE TRAFFIC</label>
                                         </div>
                                     </div>
                                 </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import osgLogo from './assets/images/logo.png'
-import heroAR from './assets/images/hero-ar.png'
+import heroAR from './assets/images/hero-ar-brand.png'
 import brandNameBg1 from './assets/images/brandname-bg-1-ar.png'
 import brandNameBg2 from './assets/images/brandname-bg-2.png'
 import brandNameBgDesignIcon from './assets/images/brandname-design-icon.png'
@@ -48,9 +48,8 @@ const BrandIdentityQuestionnaireAR = () => {
             {/* hero section */}
             <div className="bg">
                 <div className="hero">
-                    <div className="container">
-                        <div className="d-flex justify-content-center pt-5 position-relative">
-                            <span className="lang-btn-strok"></span>
+                    <div className="container position-relative">
+                        <div className="d-flex justify-content-end col-12 pr-4 mx-right lang-btn-container">
                             <Link className="btn btn-primary position-relative" to="/">English</Link>
                         </div>
                         <div className="d-flex flex-column">

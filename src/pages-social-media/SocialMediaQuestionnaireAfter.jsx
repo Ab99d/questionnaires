@@ -46,11 +46,14 @@ const SocialMediaQuestionnaire = () => {
             {/* hero section */}
             <div className="bg">
                 <div className="hero">
-                    <div className="container">
-                        <div className="d-flex justify-content-center pt-5 position-relative">
-                            <span className="lang-btn-strok"></span>
+                    <div className="container position-relative">
+                        <div className="d-flex justify-content-end col-12 pr-4 mx-right lang-btn-container">
                             <Link className="btn btn-primary position-relative" to="/ar">عربي</Link>
                         </div>
+                        {/* <label className="switch">
+                            <input type="checkbox"/>
+                            <span className="slider round"><Link className="position-reative" to="/ar">Ar</Link></span>
+                        </label> */}
                         <div className="d-flex justify-content-around hero-social">
                             <img src={heroIcon} alt="" className='mt-5 pt-5 col-4 w-50 align-self-center icon-none'/>
                             <img src={heroText} alt="" className='mt-5 pt-5 col-4 w-50 align-self-center width-100'/>
@@ -103,26 +106,26 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">EMAIL</label>
+                                            <input type="checkbox" className="custom-control-input" id="_emailEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_emailEnAfter">EMAIL</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">VIRTUAL MEETING / CALL</label>
+                                            <input type="checkbox" className="custom-control-input" id="_meetingEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_meetingEnAfter">VIRTUAL MEETING / CALL</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">PHONE CALL</label>
+                                            <input type="checkbox" className="custom-control-input" id="_phoneCallEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_phoneCallEnAfter">PHONE CALL</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" />
-                                            <label className="custom-control-label text-primary"> IN PERSON </label>
+                                            <input type="checkbox" className="custom-control-input"  id="_personEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_personEnAfter"> IN PERSON </label>
                                         </div>
                                     </div>
                                 </div>
@@ -150,14 +153,14 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">YES</label>
+                                            <input type="checkbox" className="custom-control-input"  id="_yesEnAfter1"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_yesEnAfter1">YES</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">NO</label>
+                                            <input type="checkbox" className="custom-control-input" id="_yesEnAfter2"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_yesEnAfter2">NO</label>
                                         </div>
                                     </div>
                                 </div>
@@ -169,14 +172,14 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">YES</label>
+                                            <input type="checkbox" className="custom-control-input"  id="_yesEnAfter3"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_yesEnAfter3">YES</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">NO</label>
+                                            <input type="checkbox" className="custom-control-input" id="_yesEnAfter4"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_yesEnAfter4">NO</label>
                                         </div>
                                     </div>
                                 </div>
@@ -186,16 +189,16 @@ const SocialMediaQuestionnaire = () => {
                             <div className="col-lg-8 mx-auto">
                                 <label htmlFor="">DO YOU HAVE ANY OFFERS OR PROMOTIONS THAT WE CAN USE FOR YOUR CAMPAIGN?</label>
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
-                                    <div className="col-auto my-1">
+                                <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">YES</label>
+                                            <input type="checkbox" className="custom-control-input"  id="_yesEnAfter5"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_yesEnAfter5">YES</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">NO</label>
+                                            <input type="checkbox" className="custom-control-input" id="_yesEnAfter6"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_yesEnAfter6">NO</label>
                                         </div>
                                     </div>
                                 </div>
@@ -207,56 +210,56 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">BOOK NOW</label>
+                                            <input type="checkbox" className="custom-control-input" id="_bookEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_bookEnAfter">BOOK NOW</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">LEARN MORE</label>
+                                            <input type="checkbox" className="custom-control-input" id="_learnmoreEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_learnmoreEnAfter">LEARN MORE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">SEND A WHATSAPP MESSAGE</label>
+                                            <input type="checkbox" className="custom-control-input" id="_whatsappEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_whatsappEnAfter">SEND A WHATSAPP MESSAGE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" />
-                                            <label className="custom-control-label text-primary">SHOP OUR WEBSITE</label>
+                                            <input type="checkbox" className="custom-control-input" id="_shopEnAfter" />
+                                            <label className="custom-control-label text-primary" htmlFor="_shopEnAfter">SHOP OUR WEBSITE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" />
-                                            <label className="custom-control-label text-primary">VISIT OUR STORE</label>
+                                            <input type="checkbox" className="custom-control-input" id="_visitEnAfter" />
+                                            <label className="custom-control-label text-primary" htmlFor="_visitEnAfter">VISIT OUR STORE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" />
-                                            <label className="custom-control-label text-primary">CALL US NOW</label>
+                                            <input type="checkbox" className="custom-control-input" id="_callUsEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_callUsEnAfter">CALL US NOW</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" />
-                                            <label className="custom-control-label text-primary">SEND A MESSAGE</label>
+                                            <input type="checkbox" className="custom-control-input"  id="_sendmessEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_sendmessEnAfter">SEND A MESSAGE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" />
-                                            <label className="custom-control-label text-primary">SHOP OUR STORE</label>
+                                            <input type="checkbox" className="custom-control-input" id="_shopstoreEnAfter" />
+                                            <label className="custom-control-label text-primary" htmlFor="_shopstoreEnAfter">SHOP OUR STORE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" />
-                                            <label className="custom-control-label text-primary">SIGN UP</label>
+                                            <input type="checkbox" className="custom-control-input" id="_signEnAfter" />
+                                            <label className="custom-control-label text-primary" htmlFor="_signEnAfter">SIGN UP</label>
                                         </div>
                                     </div>
                                 </div>
@@ -268,14 +271,14 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">PUBLISH</label>
+                                            <input type="checkbox" className="custom-control-input" id="_publishEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_publishEnAfter">PUBLISH</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">WAIT</label>
+                                            <input type="checkbox" className="custom-control-input" id="_waitEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_waitEnAfter">WAIT</label>
                                         </div>
                                     </div>
                                 </div>
@@ -293,26 +296,26 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">GIVE A CALL</label>
+                                            <input type="checkbox" className="custom-control-input" id="_giveacallEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_giveacallEnAfter">GIVE A CALL</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">REPLY IN A COMMENT </label>
+                                            <input type="checkbox" className="custom-control-input" id="_replayEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_replayEnAfter">REPLY IN A COMMENT</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">SEND AN INBOX MESSAGE</label>
+                                            <input type="checkbox" className="custom-control-input" id="_sendinboxEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_sendinboxEnAfter">SEND AN INBOX MESSAGE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" />
-                                            <label className="custom-control-label text-primary">REFER TO WEBSITE</label>
+                                            <input type="checkbox" className="custom-control-input"  id="_referEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_referEnAfter">REFER TO WEBSITE</label>
                                         </div>
                                     </div>
                                 </div>
@@ -324,26 +327,26 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">GIVE A CALL</label>
+                                            <input type="checkbox" className="custom-control-input" id="_giveacalllEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_giveacalllEnAfter">GIVE A CALL</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">REPLY IN A COMMENT</label>
+                                            <input type="checkbox" className="custom-control-input" id="_replayinEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_replayinEnAfter">REPLY IN A COMMENT</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">SEND AN INBOX MESSAGE</label>
+                                            <input type="checkbox" className="custom-control-input" id="_sensaninpoxEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_sensaninpoxEnAfter">SEND AN INBOX MESSAGE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" />
-                                            <label className="custom-control-label text-primary">REFER TO WEBSITE</label>
+                                            <input type="checkbox" className="custom-control-input" id="_refertowebEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_refertowebEnAfter">REFER TO WEBSITE</label>
                                         </div>
                                     </div>
                                 </div>
@@ -361,26 +364,26 @@ const SocialMediaQuestionnaire = () => {
                                 <div className="container d-flex flex-row flex-wrap mt-2 checkboxes-container mb-0">
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">DELETE</label>
+                                            <input type="checkbox" className="custom-control-input" id="_deleteEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_deleteEnAfter">DELETE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">RESPONSE</label>
+                                            <input type="checkbox" className="custom-control-input" id="_responsEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_responsEnAfter">RESPONSE</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input"/>
-                                            <label className="custom-control-label text-primary">CONTACT US BEFORE RESPONDING</label>
+                                            <input type="checkbox" className="custom-control-input" id="_contactUsBefEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_contactUsBefEnAfter">CONTACT US BEFORE RESPONDING</label>
                                         </div>
                                     </div>
                                     <div className="col-auto my-1">
                                         <div className="custom-control custom-checkbox mr-sm-2">
-                                            <input type="checkbox" className="custom-control-input" />
-                                            <label className="custom-control-label text-primary">LET US RESPOND</label>
+                                            <input type="checkbox" className="custom-control-input"  id="_letUsRespondEnAfter"/>
+                                            <label className="custom-control-label text-primary" htmlFor="_letUsRespondEnAfter">LET US RESPOND</label>
                                         </div>
                                     </div>
                                 </div>
